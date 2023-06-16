@@ -18,10 +18,10 @@ Gifitem.propTypes = {
   url:PropTypes.string.isRequired,
 }
 
-Gifitem.defaultProps = {
-  title:'No hay Subtitulo',
-  url:'no existe url',
-}
+// Gifitem.defaultProps = {
+//   title:'No hay Subtitulo',
+//   url:'no existe url',
+// }
 
 /* Tarea 
 

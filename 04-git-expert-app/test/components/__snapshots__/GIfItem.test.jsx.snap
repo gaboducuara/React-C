@@ -15,19 +15,3 @@ exports[`pruebas en <GIf Item/> en components debe de hacer match con el snapsho
   </div>
 </div>
 `;
-
-exports[`pruebas en <GIfItem/> en components debe de hacer match con el snapshot 1`] = `
-<div>
-  <div
-    class="card"
-  >
-    <img
-      alt="Goku"
-      src="http://goku.com/"
-    />
-    <p>
-      Goku
-    </p>
-  </div>
-</div>
-`;
