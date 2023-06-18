@@ -14,10 +14,16 @@ describe('pruebas en <GIf Item/> en components', () => {
 
     test ('debe de mostar la imagen con la URL Y con el ALT indicado' , () => {
         render(<Gifitem title={ title } url={ url } />);
-        screen.debug();
-
-        const {src , alt } = screen.getByRole('img');
+        //screen.debug();
+        const {src , alt } = screen.getByRole('presentation');
         expect(src).toBe(url);
-        expect(alt).toBe(alt);
+        expect(alt).toBe(title);
     });
+
+    test ('debe de mostrar el titulo en el componente' , () => {
+        render(<Gifitem title={ title } url={ url } />);
+        expect(screen.getByText( title )).toBeTruthy();
+    })
+
+
 });

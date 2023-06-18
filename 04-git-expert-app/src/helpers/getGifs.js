@@ -9,7 +9,9 @@ export const getGifs = async (category) => {
         id:img.id,
         title: img.title,
         url: img.images.downsized_medium.url
-    }))
+    }));
 
+
+    //se regresa un arreglo de gifs
     return gifs;
 }
