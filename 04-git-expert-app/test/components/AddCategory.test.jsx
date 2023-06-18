@@ -1,11 +1,11 @@
-import { fireEvent, render, screen } from "@testing-library/react"
-import { AddCategory } from "../../src/components/AddCategory"
+import { fireEvent, render, screen } from "@testing-library/react";
+import { AddCategory } from "../../src/components/AddCategory";
 
 describe('prueba en < AddCategory.jsx />', () => {
     
     test('debe de cambiar el valor de la caja de texto', () => {
         //Sujeto de pruebas
-        render( <AddCategory onNewCategory = { () => {} }/>)
+        render( <AddCategory onNewCategory = { () => {} }/>);
         //Se extrae el input 
         const input = screen.getByRole('textbox');
         //Aqui se dispara el evento
@@ -19,7 +19,7 @@ describe('prueba en < AddCategory.jsx />', () => {
         const InputValue = 'Saitama';
         const onNewCategory = jest.fn();
 
-        render( <AddCategory onNewCategory = { onNewCategory } />)
+        render( <AddCategory onNewCategory = { onNewCategory } />);
         //Se extrae el input 
         const input = screen.getByRole('textbox');
         const form = screen.getByRole('form');

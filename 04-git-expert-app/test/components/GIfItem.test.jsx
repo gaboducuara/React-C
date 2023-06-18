@@ -23,7 +23,5 @@ describe('pruebas en <GIf Item/> en components', () => {
     test ('debe de mostrar el titulo en el componente' , () => {
         render(<Gifitem title={ title } url={ url } />);
         expect(screen.getByText( title )).toBeTruthy();
-    })
-
-
+    });
 });

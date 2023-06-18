@@ -16,7 +16,7 @@ describe('Pruebas en <GifGrid.jsx/>', () => {
             isLoading: true
         });
 
-        render( <GifGrid category={category}/>)
+        render( <GifGrid category={category}/>);
         expect(screen.getByText('Cargando...'));
         expect(screen.getByText(category));
     });
@@ -43,6 +43,6 @@ describe('Pruebas en <GifGrid.jsx/>', () => {
         });
 
         render( <GifGrid category={category}/>);
-        expect( screen.getAllByRole('img').length).toBe(2);
+        expect( screen.getAllByRole('presentation').length).toBe(2);
     });
 });
