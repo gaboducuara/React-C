@@ -10,8 +10,7 @@ export const useCounter = ( initialValue = 48) => {
 
     const [counter, setcounter] = useState( initialValue );
 
-
-    // incrementa +1 el contador
+    // incremsenta +1 el contador
     const increment = ( value = 1) => {
         setcounter(counter + value);
     };
