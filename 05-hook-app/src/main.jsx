@@ -1,20 +1,38 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import { MultipleCustomHook } from './03-examples/MultipleCustomHook'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
 
+import { Padre } from './07-tarea-memo/Padre';
+import './08-useReducer/intro_reducer'
+
+// import { CallbackHook } from './06-memos/CallbackHook';
+// import { MemoHook } from './06-memos/MemoHook'
+// import { Memorize } from './06-memos/Memorize'
+// import { Layout } from './05-useLayouEffect/Layout'
+// import { FocusScreen } from './04-useRef/FocusScreen'
+// import { MultipleCustomHook } from './03-examples/MultipleCustomHook'
 //import { FormWithCustomHooks } from './02-useEffect/FormWithCustomHook'
 // import { SimpleForm } from './02-useEffect/SimpleForm'
 // import { CounterWithCustomHooks } from './01-useState/CounterWithCustomHooks'
 // import { HooksApp } from './HooksApp'
 // import { CounterApp } from './01-useState/CounterApp'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+// ReactDOM.createRoot(document.getElementById('root')).render(
+  // <React.StrictMode>
     {/* <HooksApp /> */}
     {/* <CounterApp /> */}
     {/* <CounterWithCustomHooks /> */}
     {/* <FormWithCustomHooks /> */}
-    <MultipleCustomHook />
-  </React.StrictMode>,
-)
+    {/* <MultipleCustomHook /> */}
+    {/* <FocusScreen /> */}
+
+    {/* useLayouEffect */}
+
+    {/* <Layout /> */}
+  {/* <Memorize /> */}
+  {/* <MemoHook /> */}
+  {/* <CallbackHook /> */}
+  {/* <Padre />
+
+  </React.StrictMode>, */}
+// )
