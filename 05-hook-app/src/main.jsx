@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { Padre } from './07-tarea-memo/Padre';
-import './08-useReducer/intro_reducer'
+// import { Padre } from './07-tarea-memo/Padre';
+// import './08-useReducer/intro_reducer'
 
 // import { CallbackHook } from './06-memos/CallbackHook';
 // import { MemoHook } from './06-memos/MemoHook'
@@ -16,23 +16,10 @@ import './08-useReducer/intro_reducer'
 // import { CounterWithCustomHooks } from './01-useState/CounterWithCustomHooks'
 // import { HooksApp } from './HooksApp'
 // import { CounterApp } from './01-useState/CounterApp'
+import { TodoApp } from './08-useReducer/TodoApp';
 
-// ReactDOM.createRoot(document.getElementById('root')).render(
-  // <React.StrictMode>
-    {/* <HooksApp /> */}
-    {/* <CounterApp /> */}
-    {/* <CounterWithCustomHooks /> */}
-    {/* <FormWithCustomHooks /> */}
-    {/* <MultipleCustomHook /> */}
-    {/* <FocusScreen /> */}
-
-    {/* useLayouEffect */}
-
-    {/* <Layout /> */}
-  {/* <Memorize /> */}
-  {/* <MemoHook /> */}
-  {/* <CallbackHook /> */}
-  {/* <Padre />
-
-  </React.StrictMode>, */}
-// )
+ReactDOM.createRoot(document.getElementById('root')).render(
+  //<React.StrictMode>
+    <TodoApp />
+  //</React.StrictMode>, 
+   ) 

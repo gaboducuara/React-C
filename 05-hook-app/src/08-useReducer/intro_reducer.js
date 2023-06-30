@@ -24,7 +24,7 @@ const newTodo = {
 };
 
 const addTodoAction = {
-    type: '[TODO] add todo',
+    type: '[todo] add todo',
     payload: newTodo,
 };
 
