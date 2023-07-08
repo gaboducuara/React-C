@@ -4,7 +4,7 @@ import { LoadingQuote , Quote } from './index'
 export const MultipleCustomHook = () => {
 
   const { counter , increment  } = useCounter( 6 );
-  const { data, isLoading } = useFetch(`https://api.breakingbadquotes.xyz/v1/quotes/${ counter }`);
+  const { data, isLoading, hasError } = useFetch(`https://api.breakingbadquotes.xyz/v1/quotes/${ counter }`);
       // si la data tiene un valor entonces toma la data en la posicion cero
     const { author , quote } = !!data && data[0];
 // console.log({quote})
