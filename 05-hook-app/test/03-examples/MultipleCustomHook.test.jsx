@@ -8,7 +8,6 @@ jest.mock('../../src/hooks/useFetch');
 jest.mock('../../src/hooks/useCounter');
 
 
-
 describe('Pruebas en <MultipleCustomHooks />', () => {
 
     const mockIncrement = jest.fn();
@@ -17,15 +16,10 @@ describe('Pruebas en <MultipleCustomHooks />', () => {
             counter: 1, 
             increment: mockIncrement
         })
-     
         //significa  -> antes de cada una de las pruebas
         beforeEach(() => {
             jest.clearAllMocks();
         });
-
-
-
-
 
     test('debe de mostrar el componente por defecto', () => {
         
